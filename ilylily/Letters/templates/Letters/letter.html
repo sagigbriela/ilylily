@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+{% block content %}
+
+{% for letter in letters %}
+
+<h3>{{letter.headline}}</h3>
+<p>{{letter.body_text}}</p>
+<br>
+<p>{{letter.by}}</p>
+<p>{{letter.made_date}}</p>
+
+<hr>
+{% endfor %}
+
+{% endblock content %}
