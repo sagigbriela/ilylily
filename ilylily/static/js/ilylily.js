@@ -14,7 +14,7 @@ document.addEventListener('scroll', function() {
 
 // Drawing variables
 // Application variables
-var string = "In Octuber 28 I wrote: It is incredible how life can radical change. After feeling so difficult to be loved I met the most incredible person, she makes my day everyday. I feel so safe and loved by her when she hugs me, her smile make mine appears and how much I love her! I just I could kiss her and hug her forever.";
+var string = "I Love you!";
 var str = string.split("");
 var el = document.getElementById('str');
 (function animate() {
